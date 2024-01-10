@@ -1,3 +1,4 @@
+msg = msgBox("Shortcuts will be created in the Desktop folder.", 0, "Shortcut Generator")
 set wscriptShell = CreateObject("WScript.shell")
 localDir = wscriptShell.CurrentDirectory
 desktopDir = wscriptShell.SpecialFolders("Desktop")
