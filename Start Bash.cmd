@@ -1,1 +1,0 @@
-@pushd "%~dp0" && start bin\bash.exe

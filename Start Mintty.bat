@@ -1,1 +1,0 @@
-@pushd "%~dp0" && start usr\bin\mintty.exe -

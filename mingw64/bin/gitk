@@ -12619,8 +12619,8 @@ catch {
         set config_file_tmp [file join $env(XDG_CONFIG_HOME) git gitk-tmp]
     } else {
         # default XDG_CONFIG_HOME
-        set config_file "~/.config/git/gitk"
-        set config_file_tmp "~/.config/git/gitk-tmp"
+        set config_file "~/.config/min-bash/gitk"
+        set config_file_tmp "~/.config/min-bash/gitk-tmp"
     }
     if {![file exists $config_file]} {
         # for backward compatibility use the old config file if it exists
