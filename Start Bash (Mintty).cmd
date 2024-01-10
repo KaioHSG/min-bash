@@ -1,0 +1,1 @@
+@pushd "%~dp0" && start usr\bin\mintty.exe -i '%~dp0\bash-icon.ico' -
